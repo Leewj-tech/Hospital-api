@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="demo" uuid="80557579-d019-40a1-8d26-52d088d7f5e5">
+      <driver-ref>phoenix.thin</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.apache.phoenix.queryserver.client.Driver</jdbc-driver>
+      <jdbc-url>jdbc:phoenix:thin:url=http://localhost:8765;serialization=PROTOBUF</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>
